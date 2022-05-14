@@ -8,4 +8,6 @@ flutter run
 
 ### Screenshot
 
-![alt text](https://github.com/farhanzuhdi/flutter/blob/master/datepicker_with_dropdown/assets/screenshot1.jpg?raw=true) ![alt text](https://github.com/farhanzuhdi/flutter/blob/master/datepicker_with_dropdown/assets/screenshot2.jpg?raw=true)
+![test image size]<img src="https://github.com/farhanzuhdi/flutter/blob/master/datepicker_with_dropdown/assets/screenshot1.jpg" width="400" height="790">
+
+![test image size]<img src="https://github.com/farhanzuhdi/flutter/blob/master/datepicker_with_dropdown/assets/screenshot2.jpg" width="400" height="790">
