@@ -11,8 +11,12 @@ final List<Experience> educationList = [
 final List<Experience> experienceList = [
   Experience(
       name: 'PT. Anekapay Teknologi Indonesia',
+      position: 'Vuetify Frontend',
+      period: 'aug 2020 - dec 2021'),
+  Experience(
+      name: 'PT. Anekapay Teknologi Indonesia',
       position: 'Mobile Developer',
-      period: '2020 - present')
+      period: 'dec 2021 - present')
 ];
 
 class ExperienceCard extends StatelessWidget {
@@ -125,26 +129,30 @@ class ExperienceCard extends StatelessWidget {
                     ),
                     Column(
                         children: experienceList
-                            .map((experienceList) => Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      experienceList.name,
-                                      style: const TextStyle(
-                                        fontSize: 20,
-                                        fontWeight: FontWeight.bold,
+                            .map((experienceList) => Padding(
+                                  padding: const EdgeInsets.only(bottom: 12),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        experienceList.name,
+                                        style: const TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
-                                    ),
-                                    Text(
-                                      experienceList.position,
-                                      style: const TextStyle(fontSize: 18),
-                                    ),
-                                    Text(
-                                      experienceList.period,
-                                      style: const TextStyle(
-                                          fontWeight: FontWeight.bold),
-                                    )
-                                  ],
+                                      Text(
+                                        experienceList.position,
+                                        style: const TextStyle(fontSize: 18),
+                                      ),
+                                      Text(
+                                        experienceList.period,
+                                        style: const TextStyle(
+                                            fontWeight: FontWeight.bold),
+                                      )
+                                    ],
+                                  ),
                                 ))
                             .toList())
                   ],
