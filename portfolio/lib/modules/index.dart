@@ -51,8 +51,8 @@ class Index extends StatelessWidget {
           children: [
             SingleChildScrollView(
               controller: scrollController,
-              child: Column(
-                children: const [
+              child: const Column(
+                children: [
                   About(),
                   SizedBox(height: 50),
                   ExperienceCard(),

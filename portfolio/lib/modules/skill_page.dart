@@ -4,19 +4,19 @@ import 'package:portfolio/models/skill_models.dart';
 List<Skill> skills = [
   Skill(
     skill: "Flutter",
-    percentage: 75,
+    percentage: 85,
   ),
   Skill(
     skill: "Vuetify",
-    percentage: 60,
+    percentage: 50,
   ),
   Skill(
     skill: "Kotlin",
-    percentage: 50,
+    percentage: 25,
   ),
   Skill(
     skill: "PHP",
-    percentage: 50,
+    percentage: 25,
   ),
 ];
 

@@ -37,8 +37,8 @@ class About extends StatelessWidget {
               child: Center(
                 child: SizedBox(
                   height: MediaQuery.of(context).size.width <= 600
-                      ? 220 / (MediaQuery.of(context).size.width * 0.0025)
-                      : 200,
+                      ? 220 / (MediaQuery.of(context).size.width * 0.002)
+                      : 225,
                   width: MediaQuery.of(context).size.width <= 600
                       ? MediaQuery.of(context).size.width * 0.85
                       : 380,
@@ -54,9 +54,9 @@ class About extends StatelessWidget {
                       borderRadius: BorderRadius.circular(6),
                       color: Colors.white,
                     ),
-                    child: Column(
+                    child: const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Padding(
                           padding: EdgeInsets.all(6.0),
                           child: Text(
