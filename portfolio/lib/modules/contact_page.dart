@@ -78,7 +78,7 @@ class Contact extends StatelessWidget {
           ),
           InkWell(
             onTap: () async {
-              await launchUrl(Uri.parse('https://wa.me/085790525682'));
+              await launchUrl(Uri.parse('https://wa.me/6285790525682'));
             },
             child: Row(
               children: [
